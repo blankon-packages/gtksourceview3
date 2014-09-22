@@ -13,6 +13,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_buffer_get_context_classes_at_iter@Base 2.91.4
  gtk_source_buffer_get_highlight_matching_brackets@Base 2.91.4
  gtk_source_buffer_get_highlight_syntax@Base 2.91.4
+ gtk_source_buffer_get_implicit_trailing_newline@Base 3.13.90
  gtk_source_buffer_get_language@Base 2.91.4
  gtk_source_buffer_get_max_undo_levels@Base 2.91.4
  gtk_source_buffer_get_source_marks_at_iter@Base 2.91.4
@@ -29,6 +30,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_buffer_remove_source_marks@Base 2.91.4
  gtk_source_buffer_set_highlight_matching_brackets@Base 2.91.4
  gtk_source_buffer_set_highlight_syntax@Base 2.91.4
+ gtk_source_buffer_set_implicit_trailing_newline@Base 3.13.90
  gtk_source_buffer_set_language@Base 2.91.4
  gtk_source_buffer_set_max_undo_levels@Base 2.91.4
  gtk_source_buffer_set_style_scheme@Base 2.91.4
@@ -88,7 +90,60 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_completion_words_new@Base 2.91.4
  gtk_source_completion_words_register@Base 2.91.4
  gtk_source_completion_words_unregister@Base 2.91.4
+ gtk_source_compression_type_get_type@Base 3.13.90
  gtk_source_draw_spaces_flags_get_type@Base 2.91.4
+ gtk_source_encoding_copy@Base 3.13.90
+ gtk_source_encoding_free@Base 3.13.90
+ gtk_source_encoding_get_all@Base 3.13.90
+ gtk_source_encoding_get_charset@Base 3.13.90
+ gtk_source_encoding_get_current@Base 3.13.90
+ gtk_source_encoding_get_from_charset@Base 3.13.90
+ gtk_source_encoding_get_name@Base 3.13.90
+ gtk_source_encoding_get_type@Base 3.13.90
+ gtk_source_encoding_get_utf8@Base 3.13.90
+ gtk_source_encoding_to_string@Base 3.13.90
+ gtk_source_file_get_compression_type@Base 3.13.90
+ gtk_source_file_get_encoding@Base 3.13.90
+ gtk_source_file_get_location@Base 3.13.90
+ gtk_source_file_get_newline_type@Base 3.13.90
+ gtk_source_file_get_type@Base 3.13.90
+ gtk_source_file_loader_error_get_type@Base 3.13.90
+ gtk_source_file_loader_error_quark@Base 3.13.90
+ gtk_source_file_loader_get_buffer@Base 3.13.90
+ gtk_source_file_loader_get_compression_type@Base 3.13.90
+ gtk_source_file_loader_get_encoding@Base 3.13.90
+ gtk_source_file_loader_get_file@Base 3.13.90
+ gtk_source_file_loader_get_input_stream@Base 3.13.90
+ gtk_source_file_loader_get_location@Base 3.13.90
+ gtk_source_file_loader_get_newline_type@Base 3.13.90
+ gtk_source_file_loader_get_type@Base 3.13.90
+ gtk_source_file_loader_load_async@Base 3.13.90
+ gtk_source_file_loader_load_finish@Base 3.13.90
+ gtk_source_file_loader_new@Base 3.13.90
+ gtk_source_file_loader_new_from_stream@Base 3.13.90
+ gtk_source_file_loader_set_candidate_encodings@Base 3.13.90
+ gtk_source_file_new@Base 3.13.90
+ gtk_source_file_saver_error_get_type@Base 3.13.90
+ gtk_source_file_saver_error_quark@Base 3.13.90
+ gtk_source_file_saver_flags_get_type@Base 3.13.90
+ gtk_source_file_saver_get_buffer@Base 3.13.90
+ gtk_source_file_saver_get_compression_type@Base 3.13.90
+ gtk_source_file_saver_get_encoding@Base 3.13.90
+ gtk_source_file_saver_get_file@Base 3.13.90
+ gtk_source_file_saver_get_flags@Base 3.13.90
+ gtk_source_file_saver_get_location@Base 3.13.90
+ gtk_source_file_saver_get_newline_type@Base 3.13.90
+ gtk_source_file_saver_get_type@Base 3.13.90
+ gtk_source_file_saver_new@Base 3.13.90
+ gtk_source_file_saver_new_with_target@Base 3.13.90
+ gtk_source_file_saver_save_async@Base 3.13.90
+ gtk_source_file_saver_save_finish@Base 3.13.90
+ gtk_source_file_saver_set_compression_type@Base 3.13.90
+ gtk_source_file_saver_set_encoding@Base 3.13.90
+ gtk_source_file_saver_set_flags@Base 3.13.90
+ gtk_source_file_saver_set_newline_type@Base 3.13.90
+ gtk_source_file_set_location@Base 3.13.90
+ gtk_source_file_set_mount_operation_factory@Base 3.13.90
  gtk_source_gutter_get_padding@Base 2.91.4
  gtk_source_gutter_get_renderer_at_pos@Base 3.2.0
  gtk_source_gutter_get_type@Base 2.91.4
@@ -178,6 +233,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_mark_new@Base 2.91.4
  gtk_source_mark_next@Base 2.91.4
  gtk_source_mark_prev@Base 2.91.4
+ gtk_source_newline_type_get_type@Base 3.13.90
  gtk_source_print_compositor_draw_page@Base 2.91.4
  gtk_source_print_compositor_get_body_font_name@Base 2.91.4
  gtk_source_print_compositor_get_bottom_margin@Base 2.91.4
