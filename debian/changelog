@@ -1,8 +1,48 @@
-gtksourceview3 (3.13.90-1blankon1) tambora; urgency=low
+gtksourceview3 (3.14.4-1blankon1) tambora; urgency=medium
 
+  * New upstream release
   * Merge with Debian Experimental
 
- -- Mahyuddin <yudi.al@gmail.com>  Mon, 22 Sep 2014 19:29:19 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Fri, 10 Apr 2015 20:01:57 +0700
+
+gtksourceview3 (3.14.4-1) experimental; urgency=medium
+
+  * New upstream release 3.14.4
+    + Fix a crash when destroying the widget during a search
+    + Various other bug fixes
+  * debian/patches: Drop patch which is applied upstream now.
+
+ -- Iain Lane <laney@debian.org>  Wed, 08 Apr 2015 15:50:15 +0100
+
+gtksourceview3 (3.14.3-1) experimental; urgency=medium
+
+  [ Jackson Doak ]
+  * New upstream release. LP: #1423016
+    + Resolves crash in completion in gedit's 'snippets' plugin. (LP:
+      #1428333)
+  * Add git_fix_height_parameter.patch. Fix a typo saying width is height.
+
+  [ Iain Lane ]
+  * Don't patch ltmain.sh manually; use dh-autoreconf to do this.
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Thu, 05 Mar 2015 12:47:03 +0000
+
+gtksourceview3 (3.14.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Homepage URL.
+  * Bump Standards-Version to 3.9.6. No further changes.
+  * Install typelib files into multiarch paths.
+  * Mark gir and dev package as Multi-Arch: same.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 13 Oct 2014 20:29:35 +0200
+
+gtksourceview3 (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Upload to unstable.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 22 Sep 2014 20:55:55 +0200
 
 gtksourceview3 (3.13.90-1) experimental; urgency=medium
 
