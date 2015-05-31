@@ -1,5 +1,6 @@
 libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
 * Build-Depends-Package: libgtksourceview-3.0-dev
+ gtk_source_background_pattern_type_get_type@Base 3.15.90
  gtk_source_bracket_match_type_get_type@Base 2.91.4
  gtk_source_buffer_backward_iter_to_source_mark@Base 2.91.4
  gtk_source_buffer_begin_not_undoable_action@Base 2.91.4
@@ -24,6 +25,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_buffer_iter_backward_to_context_class_toggle@Base 2.91.4
  gtk_source_buffer_iter_forward_to_context_class_toggle@Base 2.91.4
  gtk_source_buffer_iter_has_context_class@Base 2.91.4
+ gtk_source_buffer_join_lines@Base 3.15.3
  gtk_source_buffer_new@Base 2.91.4
  gtk_source_buffer_new_with_language@Base 2.91.4
  gtk_source_buffer_redo@Base 2.91.4
@@ -280,6 +282,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_search_context_forward_finish@Base 3.10.1
  gtk_source_search_context_get_buffer@Base 3.10.1
  gtk_source_search_context_get_highlight@Base 3.10.1
+ gtk_source_search_context_get_match_style@Base 3.15.2
  gtk_source_search_context_get_occurrence_position@Base 3.10.1
  gtk_source_search_context_get_occurrences_count@Base 3.10.1
  gtk_source_search_context_get_regex_error@Base 3.10.1
@@ -289,6 +292,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_search_context_replace@Base 3.10.1
  gtk_source_search_context_replace_all@Base 3.10.1
  gtk_source_search_context_set_highlight@Base 3.10.1
+ gtk_source_search_context_set_match_style@Base 3.15.2
  gtk_source_search_context_set_settings@Base 3.10.1
  gtk_source_search_settings_get_at_word_boundaries@Base 3.10.1
  gtk_source_search_settings_get_case_sensitive@Base 3.10.1
@@ -312,6 +316,13 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_style_scheme_get_name@Base 2.91.4
  gtk_source_style_scheme_get_style@Base 2.91.4
  gtk_source_style_scheme_get_type@Base 2.91.4
+ gtk_source_style_scheme_chooser_button_get_type@Base 3.15.3
+ gtk_source_style_scheme_chooser_button_new@Base 3.15.3
+ gtk_source_style_scheme_chooser_get_style_scheme@Base 3.15.3
+ gtk_source_style_scheme_chooser_get_type@Base 3.15.3
+ gtk_source_style_scheme_chooser_set_style_scheme@Base 3.15.3
+ gtk_source_style_scheme_chooser_widget_get_type@Base 3.15.3
+ gtk_source_style_scheme_chooser_widget_new@Base 3.15.3
  gtk_source_style_scheme_manager_append_search_path@Base 2.91.4
  gtk_source_style_scheme_manager_force_rescan@Base 2.91.4
  gtk_source_style_scheme_manager_get_default@Base 2.91.4
@@ -334,6 +345,7 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_utils_escape_search_text@Base 3.10.1
  gtk_source_utils_unescape_search_text@Base 3.10.1
  gtk_source_view_get_auto_indent@Base 2.91.4
+ gtk_source_view_get_background_pattern@Base 3.15.90
  gtk_source_view_get_completion@Base 2.91.4
  gtk_source_view_get_draw_spaces@Base 2.91.4
  gtk_source_view_get_gutter@Base 2.91.4
@@ -351,9 +363,11 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_view_get_type@Base 2.91.4
  gtk_source_view_get_visual_column@Base 2.91.4
  gtk_source_view_gutter_position_get_type@Base 2.91.4
+ gtk_source_view_indent_lines@Base 3.15.3
  gtk_source_view_new@Base 2.91.4
  gtk_source_view_new_with_buffer@Base 2.91.4
  gtk_source_view_set_auto_indent@Base 2.91.4
+ gtk_source_view_set_background_pattern@Base 3.15.90
  gtk_source_view_set_draw_spaces@Base 2.91.4
  gtk_source_view_set_highlight_current_line@Base 2.91.4
  gtk_source_view_set_indent_on_tab@Base 2.91.4
@@ -366,3 +380,4 @@ libgtksourceview-3.0.so.1 libgtksourceview-3.0-1 #MINVER#
  gtk_source_view_set_show_right_margin@Base 2.91.4
  gtk_source_view_set_smart_home_end@Base 2.91.4
  gtk_source_view_set_tab_width@Base 2.91.4
+ gtk_source_view_unindent_lines@Base 3.15.3

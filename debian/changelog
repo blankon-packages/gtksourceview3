@@ -1,31 +1,43 @@
-gtksourceview3 (3.14.4-1blankon1) tambora; urgency=medium
+gtksourceview3 (3.16.1-0blankon1) tambora; urgency=medium
+
+  * New upstrema release
+  * Import from PPA GNOME3-TEAM
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 14:54:38 +0700
+
+gtksourceview3 (3.16.1-0ubuntu1~vivid1) vivid; urgency=medium
 
   * New upstream release
-  * Merge with Debian Experimental
 
- -- Mahyuddin <yudi.al@gmail.com>  Fri, 10 Apr 2015 20:01:57 +0700
+ -- Tim Lunn <tim@feathertop.org>  Sun, 19 Apr 2015 12:40:07 +1000
 
-gtksourceview3 (3.14.4-1) experimental; urgency=medium
+gtksourceview3 (3.16.0-0ubuntu1~vivid1) vivid; urgency=medium
 
-  * New upstream release 3.14.4
-    + Fix a crash when destroying the widget during a search
-    + Various other bug fixes
-  * debian/patches: Drop patch which is applied upstream now.
+  * New upstream release
 
- -- Iain Lane <laney@debian.org>  Wed, 08 Apr 2015 15:50:15 +0100
+ -- Tim Lunn <tim@feathertop.org>  Thu, 26 Mar 2015 10:00:14 +1100
 
-gtksourceview3 (3.14.3-1) experimental; urgency=medium
+gtksourceview3 (3.15.91-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Tim Lunn <tim@feathertop.org>  Mon, 09 Mar 2015 09:39:00 +1100
+
+gtksourceview3 (3.15.90-0ubuntu1~vivid1) vivid; urgency=medium
 
   [ Jackson Doak ]
-  * New upstream release. LP: #1423016
-    + Resolves crash in completion in gedit's 'snippets' plugin. (LP:
-      #1428333)
-  * Add git_fix_height_parameter.patch. Fix a typo saying width is height.
+  * New upstream release
+  * Bump gtk build-dep to 3.15.0
+  * Update symbols
 
-  [ Iain Lane ]
-  * Don't patch ltmain.sh manually; use dh-autoreconf to do this.
+  [ Rico Tzschichholz ]
+  * New upstream release
+  * debian/control.in:
+    - Bump build-deps on libgtk-3-dev (>= 3.15.3), libglib2.0-dev (>= 2.43.3)
+  * libgtksourceview-3.0-1.symbols:
+    - Updated
 
- -- Jackson Doak <noskcaj@ubuntu.com>  Thu, 05 Mar 2015 12:47:03 +0000
+ -- Rico Tzschichholz <ricotz@ubuntu.com>  Fri, 27 Feb 2015 13:58:08 +0100
 
 gtksourceview3 (3.14.1-1) unstable; urgency=medium
 
